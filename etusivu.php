@@ -24,7 +24,7 @@
 
   <div id="column">
     <h2><center>SYYSKUUN NÄYTTELY</center></h2>
-    <p>Syyskuuta tähdittää valokuvaaja parivaljakko...</p>
+    <p>Syyskuuta tähdittää valokuvaaja parivaljakko huikeilla valokuvilla syksyisestä Oulusta.</p>
     <p><center><a href="galleria.php"><button>ASTU SISÄÄN</button></a></center></p>
   </div>
 
