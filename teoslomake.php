@@ -2,16 +2,17 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Teostiedot</title>
+    <link rel="stylesheet" href="css/mystyle.css">
   </head>
   <body>
 
     <div id="topnav">
       <ul>
-        <li><a href="etusivu.php">Virtuaaligalleria MATTE</a></li>
-        <li><a href="etusivu.php">Paikka taiteelle</a></li>
-        <li><a href="rekisteroidy.php">REKISTERÖIDY</a></li>
-        <li><a href="kirjaudu.php">KIRJAUDU SISÄÄN</a></li>
+        <li style="float:left" class=""><a href="etusivu.php">Virtuaaligalleria <b>MATTE</b></a></li>
+        <li style="float:right"><a href="etusivu.php">Paikka taiteelle</a></li>
+        <li style="float:right"><a href="rekisteroidy.php">REKISTERÖIDY</a></li>
+        <li style="float right"><a href="kirjaudu.php">KIRJAUDU SISÄÄN</a></li>
       </ul>
     </div>
 
