@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Etusivu</title>
-
+    <link rel="stylesheet" href="css/mystyle.css">
   </head>
 
   <body>
     <div id="topnav">
       <ul>
-        <li><a href="etusivu.php">Virtuaaligalleria MATTE</a></li>
-        <li><a href="etusivu.php">Paikka taiteelle</a></li>
-        <li><a href="rekisteroidy.php">REKISTERÖIDY</a></li>
-        <li><a href="kirjaudu.php">KIRJAUDU SISÄÄN</a></li>
+        <li style="float:left" class=""><a href="etusivu.php">Virtuaaligalleria <b>MATTE</b></a></li>
+        <li style="float:right"><a href="galleria.php">Paikka taiteelle</a></li>
+        <li style="float:right"><a href="rekisteroidy.php">REKISTERÖIDY</a></li>
+        <li style="float right"><a href="kirjaudu.php">KIRJAUDU SISÄÄN</a></li>
       </ul>
     </div>
 
@@ -24,8 +24,8 @@
 
   <div id="column">
     <h2><center>SYYSKUUN NÄYTTELY</center></h2>
-    <p>Syyskuuta tähdittää valokuvaaja parivaljakko...</p>
-    <p><center><a href="nayttelyt.php"><button>ASTU SISÄÄN</button></a></center></p>
+    <p>Syyskuuta tähdittää valokuvaaja parivaljakko huikeilla valokuvilla syksyisestä Oulusta.</p>
+    <p><center><a href="galleria.php"><button>ASTU SISÄÄN</button></a></center></p>
   </div>
 
   <div id="column">
