@@ -22,15 +22,15 @@
     <h2>VARAA NÄYTTELYAIKA TEOKSILLESI</h2>
   </p>
   <p>
-    Täytä alla oleva hakemus. Vastaanotamme hakemukset puolivuotta ennen varsinaista näyttelyä.
+    Näyttelylomakkeesi lisäksi, lähetä meille kaksi esimerkkiteosta. Aihe vapaa.
   </p>
     <form class="" action="index.html" method="post">
-      <label for="Nayttelynimi">Näyttelyn nimi</label><br>
-      <input type="text" id="Nayttelynimi" name="Nayttelynimi" value="" placeholder="Näyttelyn nimi" required><br>
-      <label for="AlkPVM">Näyttelyn alkamispäivämäärä</label><br>
-      <input type="date" id="AlkPVM" name="AlkPVM" value="" min=2019><br>
-      <label for="LopPVM">Näyttelyn loppumispäivämäärä</label><br>
-      <input type="date" id="LopPVM" name="LopPVM" value="" min=2019><br>
+      <label for="Teosnimi">Teoksen nimi:</label><br>
+      <input type="text" id="Teosnimi" name="Teosnimi" value="" placeholder="Teoksesi nimi" required><br>
+      <label for="Tekniikka">Tekniikka:</label><br>
+      <input type="text" id="Tekniikka" name="Tekniikka" value="" placeholder="Tekniikka" required><br>
+      <label for="Vuosi">Valmistusvuosi:</label><br>
+      <input type="text" id="Vuosi" name="Vuosi" value="" placeholder="Valmistusvuosi" required><br>
       <label for="Kuvaus">Vapaamuotoinen kuvaus:</label><br>
       <textarea id="Kuvaus" name="Kuvaus" rows="8" cols="80"></textarea><br>
        <input type="Submit" name="Submit" value="Submit"><br>
