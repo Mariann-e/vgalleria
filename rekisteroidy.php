@@ -21,17 +21,17 @@
   <br>
   <div id="form">
     <h2>Rekisteröidy</h2>
-  <form class="" action="index.html" method="post">
-    <label for="Un">Käyttäjänimi</label><br>
-    <input type="text" id="Un" name="Un" value="" placeholder="käyttäjänimi" required><br>
-    <label for="Em">Sähköposti</label><br>
-    <input type="text" id="Em" name="Em" value="" placeholder="e-mail" required><br>
-    <label for="En">Etunimi</label><br>
-    <input type="text" id="En" name="En" value="" placeholder="etunimi"><br>
-    <label for="Sn">Sukunimi</label><br>
-    <input type="text" id="Sn" name="Sn" value="" placeholder="sukunimi"><br>
-    <label for="Ss">Salasana</label><br>
-    <input type="text" id="Ss" name="Ss" value="" placeholder="salasana" required><br>
+  <form class="" action="addUser.php" method="post">
+    <label for="Username">Käyttäjänimi</label><br>
+    <input type="text" id="Username" name="Username" value="" placeholder="käyttäjänimi" required><br>
+    <label for="Email">Sähköposti</label><br>
+    <input type="text" id="Email" name="Email" value="" placeholder="e-mail" required><br>
+    <label for="Etunimi">Etunimi</label><br>
+    <input type="text" id="Etunimi" name="Etunimi" value="" placeholder="etunimi"><br>
+    <label for="Sukunimi">Sukunimi</label><br>
+    <input type="text" id="Sukunimi" name="Sukunimi" value="" placeholder="Sukunimi"><br>
+    <label for="Salasana">Salasana</label><br>
+    <input type="text" id="Salasana" name="Salasana" value="" placeholder="salasana" required><br>
     <input type="Submit" name="Submit" value="Submit"><br>
   </form>
 </div>
