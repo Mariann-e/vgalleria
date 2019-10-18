@@ -27,7 +27,7 @@
     <h2>Näyttelyhakemus</h2>
     Täytä alla oleva hakemus. Vastaanotamme hakemukset puolivuotta ennen varsinaista näyttelyä.
   </p>
-    <form class="" action="index.html" method="post">
+    <form class="" action="addGalleria.php" method="post">
       <label for="Nayttelynimi">Näyttelyn nimi</label><br>
       <input type="text" id="Nayttelynimi" name="Nayttelynimi" value="" placeholder="Näyttelyn nimi" required><br>
       <label for="AlkPVM">Näyttelyn alkamispäivämäärä</label><br>
